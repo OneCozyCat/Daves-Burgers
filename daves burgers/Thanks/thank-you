@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You | Dave's Burgers</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Dark Theme Styling for Thank You Page */
+        body {
+            background-color: #121212;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+
+        .thank-you-content {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .thank-you-content h1 {
+            font-size: 36px;
+            color: #ff6347; /* Tomato color for the heading */
+            margin-bottom: 20px;
+        }
+
+        .thank-you-content p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .cta-button {
+            text-decoration: none;
+            color: #fff;
+            background-color: #ff6347; /* Tomato color for the button */
+            padding: 15px 30px;
+            font-size: 18px;
+            border-radius: 5px;
+            border: none;
+            transition: background-color 0.3s;
+            cursor: pointer;
+        }
+
+        .cta-button:hover {
+            background-color: #e5533d; /* Slightly darker shade for hover effect */
+        }
+    </style>
+</head>
+<body>
+    <div class="thank-you-content">
+        <h1>Thank You!</h1>
+        <p>Your subscription has been received. We appreciate your interest and will keep you updated with the latest news and offers.</p>
+        <a href="index.html" class="cta-button">Back to Home</a>
+    </div>
+</body>
+</html>
